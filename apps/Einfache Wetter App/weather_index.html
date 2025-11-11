@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <title>Wetter App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS einbinden -->
+    <link rel="stylesheet" href="weather_style.css" />
+</head>
+<body>
+    <div class="app-container">
+        <h1>🌤️ Meine Wetter App</h1>
+
+        <div class="search-box">
+            <input
+                type="text"
+                id="cityInput"
+                placeholder="Stadt eingeben (z. B. Berlin)"
+            />
+            <button id="searchButton">Wetter anzeigen</button>
+        </div>
+
+        <div id="message" class="message"></div>
+
+        <div id="weatherResult" class="weather-result hidden">
+            <h2 id="cityName"></h2>
+            <div class="weather-main">
+                <img id="weatherIcon" alt="Wetter Icon" />
+                <div>
+                    <p id="temperature" class="temperature"></p>
+                    <p id="description" class="description"></p>
+                </div>
+            </div>
+            <div class="weather-extra">
+                <p><strong>Gefühlt:</strong> <span id="feelsLike"></span></p>
+                <p><strong>Luftfeuchtigkeit:</strong> <span id="humidity"></span></p>
+                <p><strong>Wind:</strong> <span id="wind"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript einbinden -->
+    <script src="weather_script.js"></script>
+</body>
+</html>
