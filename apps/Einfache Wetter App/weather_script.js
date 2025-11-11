@@ -1,5 +1,5 @@
 // API-Key
-const API_KEY = "2f8cffa36e68d4df47115a64485add24"; 
+const API_KEY = ""; 
 
 // Basis-URL der API
 const BASE_URL = "https://api.openweathermap.org/data/2.5/weather";
