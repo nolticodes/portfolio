@@ -47,8 +47,8 @@ Eine moderne, minimalistische Wetter-App, die aktuelle Wetterdaten für jede Sta
 ---
 
 ## 📸 Screenshot
-![App Screenshot](./assets/wetterapp1.png)
-![App Screenshot](./assets/wetterapp2.png)
+![App Screenshot](/assets/wetterapp1.png)
+![App Screenshot](/assets/wetterapp2.png)
 
 ---
 
